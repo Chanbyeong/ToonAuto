@@ -4,9 +4,11 @@ import time
 
 def init(browser: Chrome):
     try:
-        toon_id = 'https://toon.at/tools/bypass/donator/2/763414'
+        toon_id = ''
+        '''도네이터 바이패스 입력'''
         toon_url = 'https://toon.at/donate/victoriaspakcd'
-        toon_streamer_id = 'https://toon.at/tools/bypass/streamer/1/70662'
+        toon_streamer_id = ''
+        '''스트리머 바이패스 입력'''
 
         #open Bypass (vlslxm454545)
         browser.get(toon_id)
